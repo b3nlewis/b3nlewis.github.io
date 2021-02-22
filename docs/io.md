@@ -1,2 +1,2 @@
 # I/O
-[Homepage](docs/index.html)
+[Homepage](index.md)

@@ -1,2 +1,2 @@
 # GUI/Web Scraping
-[Homepage](index.html)
+[Homepage](index.md)
