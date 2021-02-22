@@ -1,2 +1,0 @@
-# Communicating 
-[Homepage](index.html)
