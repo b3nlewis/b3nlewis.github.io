@@ -1,2 +1,2 @@
 # Agent Based Modelling
-[Homepage](index.html)
+[Homepage](index.md)

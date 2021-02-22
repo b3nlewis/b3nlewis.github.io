@@ -1,2 +1,2 @@
 # Agents
-[Homepage](index.html)
+[Homepage](index.md)

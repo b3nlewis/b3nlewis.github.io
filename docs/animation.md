@@ -1,2 +1,2 @@
 # Animation and Behaviour
-[Homepage](index.html)
+[Homepage](index.md)

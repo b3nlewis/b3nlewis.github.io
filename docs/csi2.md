@@ -1,2 +1,2 @@
 # Code Shrinking II
-[Homepage](index.html)
+[Homepage](index.md)
