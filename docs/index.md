@@ -15,4 +15,4 @@ This webpage will give access to the different projects I have completed during 
 
 
 ### Independant Programming Project
-* [White Star Line](wsl.md)
+
