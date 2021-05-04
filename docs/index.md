@@ -3,16 +3,16 @@
 This webpage will give access to the different projects I have completed during the module.
 
 ### Practical Workshops
-* [Agent Based Modelling](abm.md)
-* [Code Shrinking I](csi.md)
-* [Code Shrinking II](csi2.md)
-* [Building Tools](bt.md)
-* [Agents!](agents.md)
-* [I/O](io.md)
-* [Communicating](communicating.md)
-* [Animation/Behaviour](animation.md)
-* [GUI/Web Scraping](gui.md)
-* [Documentation](docs.md)
+* [Agent Based Modelling](../code/1)
+* [Code Shrinking I](../code/2)
+* [Code Shrinking II](../code/3)
+* [Building Tools](../code/4)
+* [Agents!](../code/5)
+* [I/O](../code/6)
+* [Communicating](../code/7)
+* [Animation/Behaviour](../code/8)
+* [GUI/Web Scraping](../code/9)
+* [Documentation](docs/_build/html/index.html)
 
 
 ### Independant Programming Project
