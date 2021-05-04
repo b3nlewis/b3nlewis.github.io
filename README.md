@@ -2,7 +2,7 @@
 
 This repository contains all of the work I have completed for GEOG5990.
 There were nine practicals in this course and there are links to all nine folders with all of the necessary code contained.
-The nine practicals get more complex with practical nine being the final product. Read the documentation before using.
+The nine practicals get more complex with practical nine being the final product. Read the documentation before using. To view all code click on the [Contents Page](docs/index.md)
 
 ### Practical 1
 A simple agent based model, where two points randomly move around a space and the distance between them is calculated.
