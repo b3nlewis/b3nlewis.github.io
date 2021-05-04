@@ -32,5 +32,5 @@ The model is now animated in a separate window. The animation is dependant on a 
 A GUI was added to run and exit the script. Additional help information was added to the command line.
 
 ## Running the model
-Before running the model in command line type: "python model.py -h".
-This will display additional information to help you run the model. The model can be run without any additional parameters added as there are defaults. However, arguments can be added using -a, -i, -n. A GUI will appear, click run in the menu bar. The model will run. When it is completed the command line will tell you when you can exit the model. On exit, data will be exported in txt files.
+Before running the model in command line type:<b> "python model.py -h" </b>.
+This will display additional information to help you run the model. The model can be run without any additional parameters added as there are defaults. However, arguments can be added using<b> -a, -i, -n</b>. A GUI will appear, click run in the menu bar. The model will run. When it is completed the command line will tell you when you can exit the model. On exit, data will be exported in txt files.
