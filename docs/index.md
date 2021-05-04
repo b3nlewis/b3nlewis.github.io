@@ -12,7 +12,7 @@ This webpage will give access to the different projects I have completed during 
 * [Communicating](https://github.com/b3nlewis/b3nlewis.github.io/tree/main/code/7)
 * [Animation/Behaviour](https://github.com/b3nlewis/b3nlewis.github.io/tree/main/code/8)
 * [GUI/Web Scraping](https://github.com/b3nlewis/b3nlewis.github.io/tree/main/code/9)
-* [Documentation](index1.html)
+* [Documentation](https://github.com/b3nlewis/b3nlewis.github.io/blob/main/code/9/sphinx_documentation/index1.html)
 
 
 ### Independant Programming Project
