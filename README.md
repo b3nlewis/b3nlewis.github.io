@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Agent Based Model Practicals
 
-You can use the [editor on GitHub](https://github.com/b3nlewis/b3nlewis.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains all of the work I have completed for GEOG5990.
+There were nine practicals in this course and there are links to all nine folders with all of the necessary code contained.
+The nine practicals get more complex with practical nine being the final product. Read the documentation before using. To view all code click on the [Contents Page](docs/index.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Practical 1
+A simple agent based model, where two points randomly move around a space and the distance between them is calculated.
 
-### Markdown
+### Practical 2
+The agents are added and created in a list to shrink the code.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Practical 3
+For loops are added to create multiple agents and move them multiple time throughout the map. A torus boundary effect is added to keep agents in one space.
 
-```markdown
-Syntax highlighted code block
+### Practical 4
+A function is added to calculate the distance between all agents which can be accessed throughout the script.
 
-# Header 1
-## Header 2
-### Header 3
+### Practical 5
+The script is converted into an object-oriented version where agents have properties and behaviours stored in a separate script, agentframework.
 
-- Bulleted
-- List
+### Practical 6
+Inputs and outputs are added to the code, which store information about the environment and how much food is eaten.
 
-1. Numbered
-2. List
+### Practical 7
+Agentframework is altered to allow agents to share food with each other based upon a distance variable.
 
-**Bold** and _Italic_ and `Code` text
+### Practical 8
+The model is now animated in a separate window. The animation is dependant on a stopping condition. This condition is a random based food value, when every agent reaches this value the script stops.
 
-[Link](url) and ![Image](src)
-```
+### Practical 9
+A GUI was added to run and exit the script. Additional help information was added to the command line.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/b3nlewis/b3nlewis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Running the model
+Before running the model in command line type:<b> "python model.py -h" </b>.
+This will display additional information to help you run the model. The model can be run without any additional parameters added as there are defaults. However, arguments can be added using<b> -a, -i, -n</b>. A GUI will appear, click run in the menu bar. The model will run. When it is completed the command line will tell you when you can exit the model. On exit, data will be exported in txt files.
