@@ -96,10 +96,12 @@ def update(frame_number):
     Bool: Stopping Condition (True/False)
     Float: Agents x and y position each iteration.
     '''
+    
     fig.clear()
     global carry_on
     global stopCond
     global total 
+    
     random.shuffle(agents)# Randomly shuffles what order the agents move, eat and share.
     n = len(agents) #number of agents.
     for i in range(n):
@@ -124,8 +126,7 @@ def update(frame_number):
         #print(agents[i].getx, agent[i].gety)#python object
     #Remove plt.show() to get working in command line
     #plt.show() 
-        
-        
+         
 def gen_function():
     '''
     Provides a stopping variable for Matplotlib.animation.
@@ -135,13 +136,13 @@ def gen_function():
     int: a
 
     '''
+    
     a = 0
     global carry_on #Not actually needed as we're not assigning, but clearer
     while (a < 100) & (carry_on) :
         yield a			# Returns control and waits next call.
         a = a + 1
           
-    
 def wait_fig():
     '''
     Function requires figure to remain open unitl all code has run and
@@ -152,6 +153,7 @@ def wait_fig():
     Animation sequence.
 
     '''
+    
     # Block the execution of the code until the figure is closed.
     # This works even with multiprocessing.
     if plt.isinteractive():
@@ -162,9 +164,11 @@ def wait_fig():
     else:
         #plt.show(block=True)       
         plt.show(block=False)
+        
     plt.pause(1)#closes figure automatically
     plt.close()
     return
+
 end = time.process_time()
 print('Step 3 Time : ', end-start)
 
@@ -198,6 +202,7 @@ def runAnimation():
             repeat=False, frames=gen_function())#based on reasonable assumptions about food.
     #animation = matplotlib.animation.FuncAnimation(fig, update, 
             #repeat=False, frames=num_of_iterations)Displays all iteration steps.
+   
     """Create animated plot. Continues to update the plot until stopping criteria is met.""" 
     print('Showing Figure')
     plt.show()
@@ -274,10 +279,7 @@ def main():
     print("Step 3 Completed")                  
     #print('Step 3 Time : ', end-start)
 
-    
 
-
-# The process is quit as well as destroying the main window (root) on exit
 def exiting():
     '''
     When GUI is closed, this function stops the program.
@@ -303,7 +305,6 @@ def exiting():
     '''Step 5: Write out the environment as a .txt file'''
     print("Step 5: Exporting Environment to dataout.txt")
     #start = time.process_time()    
-    
    
     f2 = open('dataout.txt', 'w', newline='') 
     writer = csv.writer(f2, delimiter=',')
@@ -328,8 +329,7 @@ def exiting():
     #end = time.process_time()
     print("Step 6 Completed")
     #print('Step 6 Time : ', end-start)
-    
-    
+     
     '''Step 7: Checking Results'''
     print("Step 7: Checking Results")
     #start = time.process_time()
