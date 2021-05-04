@@ -29,7 +29,7 @@ Agentframework is altered to allow agents to share food with each other based up
 The model is now animated in a separate window. The animation is dependant on a stopping condition. This condition is a random based food value, when every agent reaches this value the script stops.
 
 ### Practical 9
-A GUI was added to run and exit the script. Additional help information was added to the command line.
+A GUI was added to run and exit the script. Additional help information was added to the command line. Additional Readme, License and Testing files are located in this folder.
 
 ## Running the model
 Before running the model in command line type:<b> "python model.py -h" </b>.
