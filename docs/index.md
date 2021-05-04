@@ -12,7 +12,7 @@ This webpage will give access to the different projects I have completed during 
 * [Communicating](communicating.md)
 * [Animation/Behaviour](animation.md)
 * [GUI/Web Scraping](gui.md)
-* [Documentation](docs.md)
+* [Documentation](docs/_build/html/index.html)
 
 
 ### Independant Programming Project
