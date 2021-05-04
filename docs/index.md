@@ -12,7 +12,7 @@ This webpage will give access to the different projects I have completed during 
 * [Communicating](../code/7)
 * [Animation/Behaviour](../code/8)
 * [GUI/Web Scraping](../code/9)
-* [Documentation](docs/_build/html/index.html)
+* [Documentation](sphinx_documentation/index.html)
 
 
 ### Independant Programming Project
