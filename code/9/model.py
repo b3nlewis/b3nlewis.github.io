@@ -22,9 +22,10 @@ import random
 import requests
 from bs4 import BeautifulSoup
 import tkinter
+import sys
 import argparse #used for commandline interface.
 
-#Commandline interface
+    #Commandline interface
 parser = argparse.ArgumentParser(description=
 'Run an agent based model for sheep. Defaults are available for variables')
 
@@ -76,7 +77,6 @@ print('Food Needed: ', stopCond)
 #end = time.process_time()
 print("Step 1 Completed")
 #print('Step 1 Completed, Time : ', end-start)
-
 
 def update(frame_number):
     '''
@@ -222,7 +222,7 @@ def main():
     Agent starting locations for agentframework
     '''
     
-    if __name__ != '__main__': return 
+    if __name__ != '__main__': return
     
     '''Step 2:Reading in environment'''
     print("Step 2: Reading in Environment from in.txt")
@@ -344,8 +344,13 @@ def exiting():
     print("Step 7 Completed")
     #print('Step 7 Time : ', end-start)
     end_all = time.process_time()
-    print("Operation time was", end_all-start_all, "seconds")
-    #sys.exit(0)
+    tt = end_all-start_all
+    print("Operation time was",tt , "seconds")
+    
+    f4 = open('time.txt', 'a')#adding time to file so can be checked. 
+    f4.write(str(tt) + '\n')		# Time Total and append to new line.
+    f4.close()
+    #sys.exit()#forces system to exit
     
 # Initial GUI set up
 root = tkinter.Tk()
